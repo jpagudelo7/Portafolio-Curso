@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+
+.container {
+    display: grid;
+    grid-template-columns: 1.5fr;
+    grid-template-rows: auto auto auto;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "header" "sección" "seccion2";
+    width: 800px;
+    margin-left: 5px;
+    padding:6px;
+    box-shadow: 0 2px 10px #1d1d1d;
+    border-radius: 10px;
+    font-family: 'Francois One', sans-serif;
+  }
+  
+  
+  .header {
+    display: grid;
+    grid-template-columns: 1.3fr 0.7fr;
+    grid-template-rows: auto auto auto;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "estu foto" "nomEstu foto" "enlaces foto";
+    grid-area: header;
+    
+  }
+  
+  .foto {
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "fotito"; 
+    justify-content: stretch; 
+    align-content: space-between; 
+    justify-items: center; 
+    align-items: center; 
+    grid-area: foto; 
+  }
+  .fotito {
+    justify-self: center; 
+    align-self: center; 
+    grid-area: fotito; 
+   background: #ADC2A9;
+   border: 4px solid black;
+    overflow: hidden;
+  }
+  .fotico2{
+    justify-self: center; 
+    align-self: center; 
+    grid-area: fotito; 
+    width: 100%;
+    margin-bottom: -5px;
+    border-radius: 100%;
+  }
+  
+  
+  .estu {
+    grid-area: estu;
+    background: #99A799;
+    /* border-radius: 10px; */
+  }
+  
+  .nomEstu {
+    grid-area: nomEstu;
+    /* background: #ADC2A9; */
+    
+  }
+  
+  .enlaces {
+    grid-area: enlaces;
+    background: #ADC2A9;
+   
+    /* border-radius: 30px; */
+  }
+  .ul{
+    list-style: none;
+  }
+  
+  .sección {
+    display: grid;
+    grid-template-columns: 1.7fr 0.6fr 0.7fr;
+    grid-template-rows: auto auto auto auto auto;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-area: sección;
+    background: #D3E4CD;
+    
+    
+  }
+  
+  .actividades {
+    grid-area: 1 / 1 / 2 / 4;
+    background: #99A799;
+    
+  }
+  
+  .tituloActividad {
+    display: grid;
+    grid-template-columns: 1.7fr 0.6fr 0.7fr;
+    grid-template-rows: auto;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: ". UX Dev";
+    grid-area: 1 / 1 / 2 / 4;
+   
+  }
+  
+  .UX {
+    grid-area: UX;
+  }
+  
+  .Dev {
+    grid-area: Dev;
+  }
+  
+  .actividad1 {
+    display: grid;
+    grid-template-columns: 1.7fr 0.6fr 0.7fr;
+    grid-template-rows: auto;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "nomActividad estadoUX estadoDev";
+    grid-area: 2 / 1 / 3 / 4;
+    
+  }
+  
+  .nomActividad {
+    grid-area: nomActividad;
+  }
+  
+  .estadoUX {
+    grid-area: estadoUX;
+  }
+  
+  .estadoDev {
+    grid-area: estadoDev;
+  }
+  
+  .actividad3 {
+    display: grid;
+    grid-template-columns: 1.7fr 0.6fr 0.7fr;
+    grid-template-rows: auto;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "nomActividad2 estadoUX2 estadoDev2";
+    grid-area: 4 / 1 / 5 / 4;
+  }
+  
+  .nomActividad2 {
+    grid-area: nomActividad2;
+  }
+  
+  .estadoUX2 {
+    grid-area: estadoUX2;
+  }
+  
+  .estadoDev2 {
+    grid-area: estadoDev2;
+  }
+  
+  .actividad4 {
+    display: grid;
+    grid-template-columns: 1.7fr 0.6fr 0.7fr;
+    grid-template-rows: auto;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "nomActividad3 estadoUX3 estadoDev3";
+    grid-area: 5 / 1 / 6 / 4;
+  }
+  
+  .nomActividad3 {
+    grid-area: nomActividad3;
+  }
+  
+  .estadoUX3 {
+    grid-area: estadoUX3;
+  }
+  
+  .estadoDev3 {
+    grid-area: estadoDev3;
+  }
+  
+  .actividad2 {
+    display: grid;
+    grid-template-columns: 1.7fr 0.6fr 0.7fr;
+    grid-template-rows: auto;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "nomActividad1 estadoUX1 estadoDev1";
+    grid-area: 3 / 1 / 4 / 4;
+  }
+  
+  .nomActividad1 {
+    grid-area: nomActividad1;
+  }
+  
+  .estadoUX1 {
+    grid-area: estadoUX1;
+  }
+  
+  .estadoDev1 {
+    grid-area: estadoDev1;
+  }
+  
+  .seccion2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "tarjeta1 tarjeta2 tarjeta3 tarjeta4 tarjeta5 tarjeta6";
+    grid-area: seccion2;
+    background: #99A799;
+    /* border-radius: 25px; */
+    text-align: center;
+    
+  }
+  
+  .tarjeta1 {
+    grid-area: tarjeta1;
+    background: #FEF5ED;
+    border-radius: 100px;
+    margin: 10px;
+    padding: 20px 20px;
+    box-shadow: 0 2px 10px #1d1d1d;
+  }
+  
+  .tarjeta2 {
+    grid-area: tarjeta2;
+    background: #FEF5ED;
+    border-radius: 100px;
+    margin: 10px;
+    padding: 20px 20px;
+    box-shadow: 0 2px 10px #1d1d1d;
+  }
+  
+  .tarjeta3 {
+    grid-area: tarjeta3;
+    background: #FEF5ED;
+    border-radius: 100px;
+    margin: 10px;
+    padding: 20px 20px;
+    box-shadow: 0 2px 10px #1d1d1d;
+  }
+  
+  .tarjeta4 {
+    grid-area: tarjeta4;
+    background: #FEF5ED;
+    border-radius: 100px;
+    margin: 10px;
+    padding: 20px 20px;
+    box-shadow: 0 2px 10px #1d1d1d;
+  }
+  
+  .tarjeta5 {
+    grid-area: tarjeta5;
+    background: #FEF5ED;
+    border-radius: 100px;
+    margin: 10px;
+    padding: 20px 20px;
+    box-shadow: 0 2px 10px #1d1d1d;
+   
+  }
+  
+  .tarjeta6 {
+    grid-area: tarjeta6;
+    background: #FEF5ED;
+    border-radius: 100px;
+    margin: 10px;
+    padding: 20px 5px;
+    box-shadow: 0 2px 10px #1d1d1d;
+   
+  }
+  
+  .seccion2 p {
+    text-align: center;
+  }

@@ -1,0 +1,170 @@
+
+html, body { height: 100%; }
+body{
+    Font-size: 16px;
+}
+.header{
+    margin: 0%;
+    background: linear-gradient(to right, hsl(13, 100%, 72%),hsl(353, 100%, 62%));
+   border-bottom-left-radius: 35px;
+   position: relative;
+   padding-left: 50px;
+   padding-right: 80px;
+  
+}
+.login{
+    display: flex;
+    justify-content:flex-end;
+    
+}
+.boton {
+    margin-top: 30px;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: hsl(356, 100%, 66%); 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 20px;
+    }
+
+    .boton:hover{
+        background: white;
+        color:hsl(356, 100%, 66%) ;
+    }
+
+    .boton2{
+        display: flex;
+        justify-content:center;
+        padding-bottom: 50px;
+        align-items: center;
+       
+    }
+
+.logo{
+    float: left;
+    line-height: 65px;
+    margin-top: 20px;
+   
+}
+.menu{
+    float:left;
+    line-height: 65px;
+
+}
+
+
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu a{
+    display: block;
+    padding: 0px 20px;
+    text-decoration: none;
+    color: white;
+    transition: all 500ms ease;
+}
+.menu a:hover{
+    background:hsl(355, 100%, 74%);
+    color: #fff;
+    border-radius: 20px;
+}
+.menu .submenu{
+    background: linear-gradient(to right, hsl(13, 100%, 72%),hsl(353, 100%, 62%));
+    box-shadow: 3px 10px 10px rgba(0,0,0,0.2);
+    display: none;
+}
+.menu .submenu li a{
+    line-height: 50px;
+}
+.menu ul li a:hover + ul, .menu .submenu:hover{
+    display: block;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.contenido1{
+    width: 35%;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+.contenido2{
+    width: 100%;
+    height: 340px;
+    background: linear-gradient(to right, hsl(237, 23%, 32%),hsl(237, 17%, 21%));
+    border-bottom-left-radius: 35px;
+    border-top-right-radius: 35px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.contenido3{
+    width: 35%;
+    margin-left: 60px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: right;
+    
+}
+
+.pr{
+    
+    text-align: center;
+}
+
+.ccx{
+    float: right;
+    width: 600px;
+     
+  }
+
+  .ccxx{
+    width: 550px;
+    float: left;
+     
+  }
+  .future{
+     
+      text-align: center;
+      margin: 80px;
+      margin-left: 200px;
+   
+  }
+
+
+
+
+footer{
+    background: black;
+}
+
+
+.logo{
+    float: left;
+    line-height: 65px;
+    margin-top: 20px;
+   
+}
+.menu2{
+  
+    line-height: 65px;
+    float: none;
+
+}
+
+.menu2 ul{
+    display: flex;
+    list-style: none;
+}
+.menu2 a{
+    display: block;
+    padding: 0px 20px;
+    text-decoration: none;
+    color: white;
+    transition: all 500ms ease;
+}
+
+
